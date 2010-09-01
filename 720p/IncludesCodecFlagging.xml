@@ -1,0 +1,46 @@
+<includes>
+	<include name="VideoCodecFlaggingConditions">
+		<control type="image">
+			<description>Video Resolution Image</description>
+			<width min="1" max="95">auto</width>
+			<height>33</height>
+			<aspectratio>keep</aspectratio>
+			<info>Listitem.Property(mediaTag::videoResolution)</info>
+		</control>
+		<control type="image">
+			<description>Codec Image</description>
+			<width min="1" max="95">auto</width>
+			<height>33</height>
+			<aspectratio>keep</aspectratio>
+			<info>Listitem.Property(mediaTag::videoCodec)</info>
+					</control>
+	</include>
+	<include name="VideoTypeHackFlaggingConditions">
+		
+	</include>
+	<include name="AudioCodecFlaggingConditions">
+		<control type="image">
+			<description>Audio Channels Image</description>
+			<width min="1" max="95">auto</width>
+			<height>33</height>
+			<aspectratio>keep</aspectratio>
+			<info>Listitem.Property(mediaTag::audioCodec)</info>
+		</control>
+		<control type="image">
+			<description>HDDVD Image</description>
+			<width min="1" max="95">auto</width>
+			<height>33</height>
+			<aspectratio>keep</aspectratio>
+			<info>Listitem.Property(mediaTag::audioChannels)</info>
+		</control>
+	</include>
+	<include name="AspectCodecFlaggingConditions">
+		<control type="image">
+			<description>Aspectratio Image</description>
+			<width min="1" max="95">auto</width>
+			<height>33</height>
+			<aspectratio>keep</aspectratio>
+			<info>Listitem.Property(mediaTag::aspectRatio)</info>
+		</control>
+	</include>
+</includes>
